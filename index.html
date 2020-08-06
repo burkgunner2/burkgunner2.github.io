@@ -59,13 +59,42 @@ Frågor:
       address a:hover {
       color:black;
       text-decoration:underline;
-      }   
+      }
+      
+      .filmer {
+  width: 200px;
+    float: right;
+    margin-top: 30px;
+    position: fixed;
+    margin-left: 81.6%;
+    z-index: 20;
+}
+
+.filmer a {
+     background-color: none;
+    color: black;
+    padding-bottom: 3%;
+    font-size: 1em;
+    display: block;
+    font-weight: lighter;
+    font-family: "futura";
+    text-decoration: none;
+}
+
+.filmer a:hover {
+  text-decoration:underline;
+}
+
+.filmer a.active {
+  background-color: none; 
+  color: #ccc;
+}
     </style>
     
   </head>
   <body>
     <div class="fullcontainer">
-    <div class="navbar"> 
+    <div class="filmer"> 
       <a href="https://burkgunner2.github.io" class="active">film 1</a>
       <a href="https://burkgunner2.github.io/Arbeten.html">film 2</a>
       <a href="https://burkgunner2.github.io/Dockor.html">film 3</a>
