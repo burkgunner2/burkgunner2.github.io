@@ -123,6 +123,17 @@ Frågor:
   max-height: 0;
   transition: max-height 0.2s ease-out;
 }
+ .accordion:after {
+  content: '&#9759'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "&#9759"; /* Unicode character for "minus" sign (-) */
+}
     </style>
     
   </head>
