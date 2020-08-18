@@ -18,10 +18,6 @@
       height: 88%;
       background: white;
       }
-      .bilden {
-      width:100%;
-      }
-  
       .FW-titel {
        color:springgreen;
     font-family: "avenir", "futura";
@@ -39,7 +35,6 @@
       }
       address {
       position:absolute;
-
       }
       address a {
       text-decoration: none;
