@@ -1,0 +1,220 @@
+
+      body {
+	position:fixed;
+      background:navy;
+      font-family:"avenir", "futura";
+      }
+      .rutainsida {
+      z-index: 5;
+      position: static;
+      margin-top: 4%;
+      margin-bottom: 6%;
+      margin-left: 7%;
+      margin-right: 7%;
+      width: 86%;
+      height: 88%;
+      background: white;
+      }
+      .bilden {
+      width:100%;
+      }
+  
+      .FW-titel {
+       color:springgreen;
+    font-family: "avenir", "futura";
+    font-size: 2.6em;
+    font-weight: 900;
+    position: relative;
+    z-index: 24;
+    /* width: 110%; */
+    margin-right: -2.5%;
+    margin-left: -2.7%;
+    margin-top: 0%;
+    /* padding: 10px; */
+    margin-bottom: 0px;
+}
+      }
+      address {
+      position:absolute;
+
+      }
+      address a {
+      text-decoration: none;
+    font-family: "avenir", "futura";
+    color:white;
+    z-index: 25;
+    font-size: 0.8em;
+    position: relative;
+    text-align: center;
+      }
+      
+      .filmer {
+      width: 200px;
+    float: right;
+    margin-top: 0%;
+    position: absolute;
+    margin-left: 81.6%;
+    z-index: 20;
+}
+
+.filmer a {
+     background-color: none;
+    color:orange;
+    padding-bottom: 3%;
+    font-size: 1em;
+    display: block;
+    font-weight: lighter;
+    font-family: "avenir", "futura";
+    text-decoration: none;
+}
+
+.filmer a:hover {
+  text-decoration:underline;
+}
+      
+      /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: navy;
+  font-size:1em;
+  color:chartreuse;
+  cursor: pointer;
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family:"avenir", "futura";
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color:navy;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  color:powderblue;
+    font-size: 16px;
+    background-color: navy;
+    display: none;
+    overflow: hidden;
+    width: 80%;
+    float: left;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+ .accordion:after {
+  content:"\02C7";
+  font-size: 2em;
+  color: powderblue;
+   text-align:center;
+}
+
+.active:after {
+  content:"\02C6"; 
+}
+  
+	    
+	    @media screen and (min-device-width: 551px) and (max-device-width: 900px) { /* Ipad Ipad mini */
+    	.bilden {
+      width: 100%;
+    height: 445px;
+    }
+	
+}
+
+@media screen and (min-device-width: 363px) and (max-device-width: 390px) { /* Iphone X  Iphone 6/7/8 */
+    .bilden {
+    width: 100%;
+    height: 202px;
+    }
+}
+
+@media only screen and (min-device-width: 413px) and (max-device-width: 430px) { /* Iphone 6/7/8 Plus */
+   .bilden {
+      width: 100%;
+    height: 225px;
+    }
+}
+@media screen and (max-device-width: 300px) { /* Galaxy Fold */
+    .bilden {
+    width: 100%;
+    height: 150px;
+    }
+}
+@media screen and (min-device-width: 901px) and (max-device-width: 1200px) { /* Ipad Pro */
+    .bilden {
+    width: 100%;
+    height: 570px;
+    }
+}
+@media screen and (min-device-width: 301px) and (max-device-width: 345px) { /* Iphone 5/SE */
+    .bilden {
+    width: 100%;
+    height: 170px;
+    }
+}
+@media screen and (min-device-width: 391px) and (max-device-width: 412px) { /* Pixel 2 */
+    .bilden {
+    width: 100%;
+    height: 222px;
+    }
+}
+@media screen and (min-device-width: 346px) and (max-device-width: 362px) { /* Galaxy S5 Galaxy Note 3 */
+    .bilden {
+    width: 100%;
+    height: 194px;
+    }
+@media screen and (min-device-width: 431px) and (max-device-width: 550px) { /* Surface Duo */
+    .bilden {
+    width: 100%;
+    height: 245px;
+    }
+	body (
+	background-color:red;
+	)
+}
+@media screen and (min-device-width: 1201px) and (max-device-width: 1800px) { /* Laptop L */
+    .bilden {
+    width: 100%;
+    height: 800px;
+    }
+}
+@media screen and (min-device-width: 1801px) { /* 4K */
+    .bilden {
+   width: 100%;
+    height: 1430px;
+    }
+}
+    </style>
+    
+  </head>
+  <body>
+    <div class="fullcontainer">
+   
+        <h2 class="FW-titel">Fredrika Wigren</h2>
+
+	   <iframe class="bilden" src="https://www.youtube.com/embed/7s-aqbKp6Ss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+	  <div class="filmer"> 
+      <a href="https://burkgunner2.github.io/index.html" class="active2">film 1</a>
+      <a href="https://burkgunner2.github.io/film2.html">film 2</a>
+      <a href="https://burkgunner2.github.io/film3.html">film 3</a>
+      <a href="https://burkgunner2.github.io/film4.html">film 4</a>
+    </div>
+	    
+        <button class="accordion"></button>
+<div class="panel">
+  <p>Badet (2019) Material: lera, ståltråd, textil</p>
+</div>
+
+	    <footer>
+	     <address style="margin-top:70%; position:fixed;">
+          <a href="mailto:fredrika.wigren@hotmail.com">fredrika.wigren@hotmail.com</a>
+          <a href="tel:0761748674">+46761748674</a>
+          <a target="blank" href="fax:+46858608010">Fax:+46858608010</a>
+        </address>
+	    </footer>
+	    
+      </div>
