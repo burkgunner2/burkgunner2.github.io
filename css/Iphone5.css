@@ -115,8 +115,8 @@
   content:"\02C6"; 
 }
   
-	    
-	    @media screen and (min-device-width: 551px) and (max-device-width: 900px) { /* Ipad Ipad mini */
+	    /*
+	    @media screen and (min-device-width: 551px) and (max-device-width: 900px) { /* Ipad Ipad mini 
     	.bilden {
       width: 100%;
     height: 445px;
@@ -124,49 +124,50 @@
 	
 }
 
-@media screen and (min-device-width: 363px) and (max-device-width: 390px) { /* Iphone X  Iphone 6/7/8 */
+@media screen and (min-device-width: 363px) and (max-device-width: 390px) { /* Iphone X  Iphone 6/7/8 
     .bilden {
     width: 100%;
     height: 202px;
     }
 }
 
-@media only screen and (min-device-width: 413px) and (max-device-width: 430px) { /* Iphone 6/7/8 Plus */
+@media only screen and (min-device-width: 413px) and (max-device-width: 430px) { /* Iphone 6/7/8 Plus 
    .bilden {
       width: 100%;
     height: 225px;
     }
 }
-@media screen and (max-device-width: 300px) { /* Galaxy Fold */
+@media screen and (max-device-width: 300px) { /* Galaxy Fold 
     .bilden {
     width: 100%;
     height: 150px;
     }
 }
-@media screen and (min-device-width: 901px) and (max-device-width: 1200px) { /* Ipad Pro */
+@media screen and (min-device-width: 901px) and (max-device-width: 1200px) { /* Ipad Pro 
     .bilden {
     width: 100%;
     height: 570px;
     }
-}
+}*/
 @media screen and (min-device-width: 301px) and (max-device-width: 345px) { /* Iphone 5/SE */
     .bilden {
     width: 100%;
     height: 170px;
     }
 }
-@media screen and (min-device-width: 391px) and (max-device-width: 412px) { /* Pixel 2 */
+/*
+@media screen and (min-device-width: 391px) and (max-device-width: 412px) { /* Pixel 2 
     .bilden {
     width: 100%;
     height: 222px;
     }
 }
-@media screen and (min-device-width: 346px) and (max-device-width: 362px) { /* Galaxy S5 Galaxy Note 3 */
+@media screen and (min-device-width: 346px) and (max-device-width: 362px) { /* Galaxy S5 Galaxy Note 3 
     .bilden {
     width: 100%;
     height: 194px;
     }
-@media screen and (min-device-width: 431px) and (max-device-width: 550px) { /* Surface Duo */
+@media screen and (min-device-width: 431px) and (max-device-width: 550px) { /* Surface Duo 
     .bilden {
     width: 100%;
     height: 245px;
@@ -175,46 +176,15 @@
 	background-color:red;
 	)
 }
-@media screen and (min-device-width: 1201px) and (max-device-width: 1800px) { /* Laptop L */
+@media screen and (min-device-width: 1201px) and (max-device-width: 1800px) { /* Laptop L 
     .bilden {
     width: 100%;
     height: 800px;
     }
 }
-@media screen and (min-device-width: 1801px) { /* 4K */
+@media screen and (min-device-width: 1801px) { /* 4K 
     .bilden {
    width: 100%;
     height: 1430px;
     }
-}
-    </style>
-    
-  </head>
-  <body>
-    <div class="fullcontainer">
-   
-        <h2 class="FW-titel">Fredrika Wigren</h2>
-
-	   <iframe class="bilden" src="https://www.youtube.com/embed/7s-aqbKp6Ss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       
-	  <div class="filmer"> 
-      <a href="https://burkgunner2.github.io/index.html" class="active2">film 1</a>
-      <a href="https://burkgunner2.github.io/film2.html">film 2</a>
-      <a href="https://burkgunner2.github.io/film3.html">film 3</a>
-      <a href="https://burkgunner2.github.io/film4.html">film 4</a>
-    </div>
-	    
-        <button class="accordion"></button>
-<div class="panel">
-  <p>Badet (2019) Material: lera, ståltråd, textil</p>
-</div>
-
-	    <footer>
-	     <address style="margin-top:70%; position:fixed;">
-          <a href="mailto:fredrika.wigren@hotmail.com">fredrika.wigren@hotmail.com</a>
-          <a href="tel:0761748674">+46761748674</a>
-          <a target="blank" href="fax:+46858608010">Fax:+46858608010</a>
-        </address>
-	    </footer>
-	    
-      </div>
+	}*/
