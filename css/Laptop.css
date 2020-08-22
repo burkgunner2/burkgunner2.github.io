@@ -96,7 +96,7 @@ width:405px;
     background-color: navy;
     display: none;
     overflow: hidden;
-    width: 80%;
+    width: 405px;
     float: left;
     max-height: 0;
     transition: max-height 0.2s ease-out;
