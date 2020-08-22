@@ -71,17 +71,17 @@ width:405px;
 }
       /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: navy;
-  font-size:1em;
-  color:chartreuse;
-  cursor: pointer;
-  padding-top: 10px;
-  width:405px;
-  text-align: center;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  font-family:"avenir", "futura";
+      background-color: navy;
+    font-size: 1em;
+    color: chartreuse;
+    cursor: pointer;
+    padding-top: 10px;
+    width: 700px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: "avenir", "futura";
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -91,12 +91,12 @@ width:405px;
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  color:powderblue;
+  color: powderblue;
     font-size: 16px;
     background-color: navy;
     display: none;
     overflow: hidden;
-    width: 405px;
+    width: 700px;
     float: left;
     max-height: 0;
     transition: max-height 0.2s ease-out;
