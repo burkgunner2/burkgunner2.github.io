@@ -37,14 +37,14 @@
     margin-bottom: 0px;
 }
       }
-      address {
+      footer .afooter {
       position:fixed;
 	margin-top:10%;
       }
       address a {
-      text-decoration: none;
+    text-decoration: none;
     font-family: "avenir", "futura";
-    color:white;
+    color: white;
     z-index: 25;
     font-size: 0.8em;
     position: relative;
@@ -74,20 +74,24 @@
 .filmer a:hover {
   text-decoration:underline;
 }
-      
+
+.videon {
+width:405px;
+}
       /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: navy;
-  font-size:1em;
-  color:chartreuse;
-  cursor: pointer;
-  padding-top: 10px;
-  width: 100%;
-  text-align: center;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  font-family:"avenir", "futura";
+ background-color: navy;
+    font-size: 1em;
+    color: chartreuse;
+    cursor: pointer;
+    padding-top: 10px;
+    width: 700px;
+    text-align: center;
+    border: none;
+    margin-bottom: 35%;
+    outline: none;
+    transition: 0.4s;
+    font-family: "avenir", "futura";
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -97,13 +101,16 @@
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  color:powderblue;
+  color: powderblue;
     font-size: 16px;
     background-color: navy;
     display: none;
     overflow: hidden;
-    width: 80%;
+    width: 700px;
     float: left;
+    margin-top: -40%;
+    z-index: 20;
+    position: absolute;
     max-height: 0;
     transition: max-height 0.2s ease-out;
 }
