@@ -52,11 +52,11 @@
       }
       
       .filmer {
-      width: 200px;
+          width: 200px;
     float: right;
-    margin-top: 0%;
+    margin-top: -84%;
     position: absolute;
-    margin-left: 88%;
+    margin-left: 81.6%;
     z-index: 20;
 }
 
@@ -85,10 +85,10 @@ width:405px;
     color: chartreuse;
     cursor: pointer;
     padding-top: 10px;
-    width: 700px;
+    width: 100%;
     text-align: center;
     border: none;
-    margin-bottom: 35%;
+    margin-bottom: 200px;
     outline: none;
     transition: 0.4s;
     font-family: "avenir", "futura";
@@ -103,16 +103,16 @@ width:405px;
 .panel {
   color: powderblue;
     font-size: 16px;
+    z-index: 25;
     background-color: navy;
     display: none;
     overflow: hidden;
-    width: 700px;
+    width: 80%;
     float: left;
-    margin-top: -40%;
-    z-index: 20;
-    position: absolute;
     max-height: 0;
     transition: max-height 0.2s ease-out;
+    position: absolute;
+    margin-top: -75%;
 }
  .accordion:after {
   content:"\02C7";
