@@ -49,9 +49,9 @@
       }
       
       .filmer {
-      width: 200px;
+         width: 200px;
     float: right;
-    margin-top: 0%;
+    margin-top: -260px;
     position: absolute;
     margin-left: 81.6%;
     z-index: 20;
@@ -74,17 +74,18 @@
       
       /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: navy;
-  font-size:1em;
-  color:chartreuse;
-  cursor: pointer;
-  padding-top: 10px;
-  width: 100%;
-  text-align: center;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  font-family:"avenir", "futura";
+     background-color: navy;
+    font-size: 1em;
+    color: chartreuse;
+    cursor: pointer;
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 210px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: "avenir", "futura";
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -94,12 +95,13 @@
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  color:powderblue;
+     color: powderblue;
     font-size: 16px;
     background-color: navy;
     display: none;
     overflow: hidden;
     width: 80%;
+    margin-top: -230px;
     float: left;
     max-height: 0;
     transition: max-height 0.2s ease-out;
