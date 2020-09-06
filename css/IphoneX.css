@@ -87,7 +87,8 @@
   border: none;
   outline: none;
   transition: 0.4s;
-  font-family:"avenir", "futura";
+  font-family:"avenir", "futura", sans-serif;
+    margin-bottom: 210px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -106,6 +107,7 @@
     float: left;
     max-height: 0;
     transition: max-height 0.2s ease-out;
+    margin-top: -230px;
 }
  .accordion:after {
   content:"\02C7";
