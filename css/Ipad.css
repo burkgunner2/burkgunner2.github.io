@@ -23,15 +23,15 @@
       }
   
       .FW-titel {
-       color:springgreen;
+        color: springgreen;
     font-family: "avenir", "futura";
-    font-size: 3.05em;
+    font-size: 6.3em;
     font-weight: 900;
     position: relative;
     z-index: 24;
     /* width: 110%; */
     margin-right: -2.5%;
-    margin-left: -2.7%;
+    margin-left: -1.8%;
     margin-top: 0%;
     /* padding: 10px; */
     margin-bottom: 0px;
