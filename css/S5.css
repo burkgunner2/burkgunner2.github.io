@@ -37,14 +37,14 @@
     margin-bottom: 0px;
 }
       }
-      footer .afooter {
-      position:fixed;
-	margin-top:10%;
+      address {
+      position:absolute;
+
       }
       address a {
-    text-decoration: none;
+      text-decoration: none;
     font-family: "avenir", "futura";
-    color: white;
+    color:white;
     z-index: 25;
     font-size: 0.8em;
     position: relative;
@@ -52,9 +52,9 @@
       }
       
       .filmer {
-          width: 200px;
+         width: 200px;
     float: right;
-    margin-top: -84%;
+    margin-top: -230px;
     position: absolute;
     margin-left: 81.6%;
     z-index: 20;
@@ -74,21 +74,18 @@
 .filmer a:hover {
   text-decoration:underline;
 }
-
-.videon {
-width:405px;
-}
+      
       /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
- background-color: navy;
+     background-color: navy;
     font-size: 1em;
     color: chartreuse;
     cursor: pointer;
     padding-top: 10px;
     width: 100%;
+    margin-bottom: 180px;
     text-align: center;
     border: none;
-    margin-bottom: 200px;
     outline: none;
     transition: 0.4s;
     font-family: "avenir", "futura";
@@ -101,18 +98,16 @@ width:405px;
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  color: powderblue;
+     color: powderblue;
     font-size: 16px;
-    z-index: 25;
     background-color: navy;
     display: none;
     overflow: hidden;
     width: 80%;
+    margin-top: -200px;
     float: left;
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    position: absolute;
-    margin-top: -75%;
 }
  .accordion:after {
   content:"\02C7";
