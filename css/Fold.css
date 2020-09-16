@@ -25,7 +25,7 @@
       .FW-titel {
        color:springgreen;
     font-family: "avenir", "futura";
-    font-size: 2.6em;
+    font-size: 2.263em;
     font-weight: 900;
     position: relative;
     z-index: 24;
@@ -54,7 +54,7 @@
       .filmer {
       width: 200px;
     float: right;
-    margin-top: 0%;
+    margin-top: -290px;
     position: absolute;
     margin-left: 81.6%;
     z-index: 20;
@@ -88,6 +88,7 @@
   outline: none;
   transition: 0.4s;
   font-family:"avenir", "futura";
+  margin-bottom:240px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -106,6 +107,7 @@
     float: left;
     max-height: 0;
     transition: max-height 0.2s ease-out;
+	margin-top:-260px;
 }
  .accordion:after {
   content:"\02C7";
