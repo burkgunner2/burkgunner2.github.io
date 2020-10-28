@@ -6,6 +6,8 @@
 	position:fixed;
       background:navy;
       font-family:"avenir", "futura";
+	    overflow-x: hidden;
+    overflow-y: hidden;
       }
       .rutainsida {
       z-index: 5;
