@@ -24,7 +24,7 @@ body {
       width:100%;
       }
   
-      .FW-titel {
+      #FW-titel {
        color:springgreen;
     font-family: "avenir", "futura";
     font-size: 2.6em;
