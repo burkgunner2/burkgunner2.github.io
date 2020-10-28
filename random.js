@@ -16,6 +16,6 @@ if(F===5) {
 document.getElementById("FW-titel").style.color = "slateblue";
 }
 if(F<1 || F>5) {
-document.getElementById("FW-titel").style.color = "deeppink";
+document.getElementById("FW-titel").style.color = "lightpink";
 }
  
