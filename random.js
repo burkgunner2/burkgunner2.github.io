@@ -1,3 +1,3 @@
-console.log("100 dollares");
+console.log("Freddie");
 
 var F = Math.floor(Math.random()*10);
