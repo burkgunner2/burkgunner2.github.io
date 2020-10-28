@@ -7,15 +7,15 @@ if(F===2) {
 document.getElementById("FW-titel").style.color = "lightblue";
 }
 if(F===3) {
-document.getElementById("FW-titel").style.color = "lightblue";
+document.getElementById("FW-titel").style.color = "black";
 }
 if(F===4) {
-document.getElementById("FW-titel").style.color = "lightblue";
+document.getElementById("FW-titel").style.color = "white";
 }
 if(F===5) {
-document.getElementById("FW-titel").style.color = "lightblue";
+document.getElementById("FW-titel").style.color = "slateblue";
 }
 if(F<1 || F>5) {
-document.getElementById("FW-titel").style.color = "lightblue";
+document.getElementById("FW-titel").style.color = "deeppink";
 }
  
