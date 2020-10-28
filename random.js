@@ -7,10 +7,10 @@ if(F===2) {
 document.getElementById("FW-titel").style.color = "lightblue";
 }
 if(F===3) {
-document.getElementById("FW-titel").style.color = "black";
+document.getElementById("FW-titel").style.color = "#ffe96e";
 }
 if(F===4) {
-document.getElementById("FW-titel").style.color = "white";
+document.getElementById("FW-titel").style.color = "mediumpurple";
 }
 if(F===5) {
 document.getElementById("FW-titel").style.color = "slateblue";
